@@ -28,6 +28,7 @@ public:
 		cout << "SKS: ";
 		cin >> sks;
 	}
+
 	void output() {
 		cout << "Kode MK: " << kodemk << endl;
 		cout << "Nama MK: " << namamk << endl;
@@ -38,4 +39,9 @@ public:
 int main() {
 	Mahasiswa mhs;
 	Matakuliah mk;
+
+	mhs.nama = "Budi";
+	mhs.umur = 20;
+	mhs.jurusan = "Teknik Informatika";
+	mhs.output();
 }
